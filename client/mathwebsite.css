@@ -1,0 +1,73 @@
+/* CSS declarations go here */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.nav{
+    border-style: solid;
+    background-color: darkslategray;
+}
+nav a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+nav a h4{
+    opacity: 1;
+    font-size: 13px;
+}
+nav a h4:hover{
+    opacity: 0.75;
+}
+.top{
+    border-style: dotted;
+    text-align: center;
+    height: 50vh;
+}
+footer li{
+    list-style: none;
+}
+.mid{
+    background-color: coral;
+    border-style: dashed;
+    min-height: 250px;
+}
+footer{
+    background-color: darkslategray;
+    border-style: solid;
+    min-height: 50px;
+}
+.head{
+    min-height: 50px;
+    border-style: groove;
+    background-color: darkolivegreen;
+}
+.conthead{
+    min-height: 50px;
+    border-style: dashed;
+    background-color: aliceblue;
+    text-align: center;
+}
+.contest li{
+    list-style: none;
+}
+.loginPanel{
+       
+}
+@media(min-width:700px){
+    .loginPanel{
+        margin-top:100px;
+}
+}
+.mgmttop{
+    text-align: center;
+}
+.pictures{
+    height: 60vh;
+    background-color: #282828;
+}
+.pictures a{
+    height: 60vh;
+}
+
+#carousel-mgmt{
+    padding-top: 20px;
+}

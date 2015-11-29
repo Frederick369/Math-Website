@@ -14,3 +14,11 @@ Router.route('/contact',{
     template:'contact',
     title: "MGCI Math Society - Contact Us"
 });
+Router.route('/date',{
+    template:'contestdates',
+    title: "MGCI Math Society - Contest Dates"
+})
+Router.route('/login',{
+    template:'login',
+    title: "MGCI Math Society - Login"
+})
