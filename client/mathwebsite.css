@@ -1,6 +1,9 @@
 /* CSS declarations go here */
 body{
     font-family: 'Open Sans', sans-serif;
+    position:absolute;
+    min-height:100%;
+    width:100%;
 }
 .nav{
     border-style: solid;
@@ -20,7 +23,7 @@ nav a h4:hover{
 .top{
     border-style: dotted;
     text-align: center;
-    height: 50vh;
+    height: 75vh;
 }
 footer li{
     list-style: none;
@@ -60,14 +63,26 @@ footer{
 .mgmttop{
     text-align: center;
 }
-.pictures{
-    height: 60vh;
-    background-color: #282828;
-}
-.pictures a{
+.carousel+.slide{
     height: 60vh;
 }
-
+.carousel+.slide a{
+    background-size: cover;    
+}
+.carousel+.slide ol{
+    list-style: none;
+}
 #carousel-mgmt{
-    padding-top: 20px;
+    margin-top:20px;
+}
+.carousel-container {
+    max-width:80vw;
+    margin: 0 auto;
+    position:relative;
+}
+.carousel-control {
+    height: 100%;
+}
+.item img {
+    margin:0 auto;
 }
